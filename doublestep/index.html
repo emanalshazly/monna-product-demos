@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="DoubleStep Android product architecture and validation status." />
+    <title>DoubleStep</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main>
+      <nav aria-label="Project links">
+        <a class="brand" href="#top">DOUBLESTEP</a>
+        <a href="https://github.com/emanalshazly/DoubleStep">Source repository ↗</a>
+      </nav>
+
+      <header id="top">
+        <div>
+          <p class="eyebrow">ANDROID PROTOTYPE · ARABIC + ENGLISH</p>
+          <h1>One small step for the child. One practical step for the parent.</h1>
+          <p class="lede">Short, structured home routines for ages 6–10 with local safety routing, offline fallback activities, and a privacy-aware AI gateway.</p>
+        </div>
+        <aside>
+          <p class="status">PROJECT SHOWCASE</p>
+          <p>GitHub Pages presents the product and evidence. The Android app and server gateway do not run in this static site.</p>
+        </aside>
+      </header>
+
+      <section class="steps" aria-labelledby="experience-title">
+        <p class="eyebrow">THE EXPERIENCE</p>
+        <h2 id="experience-title">A deliberately small loop</h2>
+        <div class="step-grid">
+          <article><span>01</span><h3>Check in</h3><p>Select today’s context without entering diagnostic or clinical data.</p></article>
+          <article><span>02</span><h3>Do together</h3><p>Follow one child activity and one parent coaching step.</p></article>
+          <article><span>03</span><h3>Capture outcome</h3><p>Record a lightweight result locally and return later.</p></article>
+        </div>
+      </section>
+
+      <section class="architecture" aria-labelledby="architecture-title">
+        <div>
+          <p class="eyebrow">TRUST BOUNDARY</p>
+          <h2 id="architecture-title">Local first, server keys only.</h2>
+        </div>
+        <div class="layers">
+          <article><strong>Android client</strong><p>Jetpack Compose, Room persistence, and a pre-approved fallback library.</p></article>
+          <article><strong>Safety routing</strong><p>Deterministic keyword routing before network access and again at the gateway.</p></article>
+          <article><strong>AI gateway</strong><p>Narrow validated request contract; optional notes are removed before provider generation.</p></article>
+        </div>
+      </section>
+
+      <section class="evidence" aria-label="Evidence status">
+        <div><span>PASS</span><strong>Android CI</strong><p>Java 17, wrapper validation, unit tests, lint, debug app and test builds.</p></div>
+        <div><span>PASS</span><strong>Gateway CI</strong><p>Typecheck, contract tests, build, and high-severity dependency audit.</p></div>
+        <div><span>BOUNDARY</span><strong>Not clinical care</strong><p>No diagnosis, treatment, emergency response, or expert-review claim.</p></div>
+      </section>
+
+      <footer>
+        <p>Structural and deterministic validation does not establish clinical safety or live-model quality.</p>
+        <a href="https://github.com/emanalshazly/DoubleStep/tree/main/docs/validation">Validation record</a>
+      </footer>
+    </main>
+  </body>
+</html>
