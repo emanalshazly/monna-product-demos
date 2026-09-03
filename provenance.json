@@ -1,0 +1,30 @@
+{
+  "generated_at": "2026-09-03",
+  "artifacts": [
+    {
+      "path": "pdf-form-filler-pro",
+      "source_repository": "emanalshazly/PDF-Form-Filler-Pro",
+      "source_commit": "bd0db65104dc4462675eb9604a05ee02ea20c6a5",
+      "mode": "static-project-showcase"
+    },
+    {
+      "path": "map-ai-assistant",
+      "source_repository": "emanalshazly/Map-AI-Assistant",
+      "source_commit": "ef50bca48cb4f1c7a3b5700e8575a27c4c7ca180",
+      "mode": "deterministic-compiled-demo"
+    },
+    {
+      "path": "visual-strategy-canvas",
+      "source_repository": "emanalshazly/Visual-Strategy-Canvas-Generator",
+      "source_commit": "2a407015928bc1472792517056aa807f36269c4c",
+      "mode": "deterministic-compiled-demo"
+    },
+    {
+      "path": "doublestep",
+      "source_repository": "emanalshazly/DoubleStep",
+      "source_commit": "ce6a19ef425ec5d9cf83fee9f5b89e729223a9af",
+      "mode": "static-project-showcase"
+    }
+  ],
+  "claim_boundary": "Static deployment does not prove live model, server, market, or clinical validation."
+}
